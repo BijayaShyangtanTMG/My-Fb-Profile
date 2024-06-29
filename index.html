@@ -2946,7 +2946,7 @@
                         </h3>
                         <div data-tti-phase="-1" data-mcomponent="TextArea" data-type="text" class="m" style="margin-top:3px; height:21px; z-index:0; width:282px; margin-left:65px;">
                             <div class="fl ac">
-                                <div dir="auto" class="native-text" style="width:282px; color:#65676b;">All posts are archived in his mind.</div>
+                                <div dir="auto" class="native-text" style="width:282px; color:#65676b;">He dont want prove anything by doing posts .</div>
                             </div>
 
                         </div>
@@ -2978,6 +2978,72 @@
 
     <input type="file" style="display: none;" /><a rel="noopener" style="display: none;"></a>
     <div class="f2 native-text"></div>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Autoplay Music Player</title>
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: #f0f0f0;
+    }
+    #clickMeButton {
+        position: fixed;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+    }
+</style>
+</head>
+<body>
+<audio id="myAudio" autoplay loop>
+    <source src="/Audio/Heartbeat.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>
+
+<script>
+    const audio = document.getElementById('myAudio');
+
+    const images = document.querySelectorAll('img');
+    images.forEach(img => {
+        img.addEventListener('click', () => {
+            audio.play();
+        });
+    });
+
+    
+    window.addEventListener('scroll', () => {
+        audio.play();
+    });
+
+    
+    document.addEventListener('touchstart', () => {
+        audio.play();
+    });
+
+
+    const button = document.createElement('button');
+    button.textContent = 'Click Me';
+    button.id = 'clickMeButton';
+    document.body.appendChild(button);
+
+    button.addEventListener('click', () => {
+        if (audio.paused) {
+            audio.play();
+        } else {
+            audio.pause();
+        }
+    });
+</script>
+
+
 </body>
 
 </html>
