@@ -2,6 +2,8 @@
 
 This project is a clone of a my Facebook profile using HTML, CSS, and JavaScript. It includes several features such as GIF images for styling, and an auto-playing heart sound that starts on touch on any image. The project is deployed on Netlify, and you can view a live preview [here](https://bijaya-facebook-profile.netlify.app/).
 
+[Cloned Profile](https://www.facebook.com/Bijaya.me25)
+
 ## Features
 
 - **GIF Images for Styling**: Enhance your profile with animated GIFs.
@@ -20,3 +22,4 @@ This project is deployed using Netlify. Follow these steps to deploy it yourself
 3. Click on "New site from Git" on the Netlify dashboard.
 4. Connect your GitHub account and choose the forked repository.
 5. Follow the prompts to deploy the site.
+
