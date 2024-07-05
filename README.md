@@ -11,7 +11,7 @@ This project is a clone of a my Facebook profile using HTML, CSS, and JavaScript
 
 ## Preview
 
-You can check out the live preview of the project [here](https://bijaya-facebook-profile.netlify.app/).
+You can check out the live preview of the project [here](https://me-bijaya-fb-pr0file.netlify.app/).
 
 ## Deployment
 
