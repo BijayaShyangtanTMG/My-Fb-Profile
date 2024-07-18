@@ -7,7 +7,7 @@ This project is a clone of a my Facebook profile using HTML, CSS, and JavaScript
 ## Features
 
 - **GIF Images for Styling**: Enhance your profile with animated GIFs.
-- **Auto Audio Heart Sound Player**: A heart sound plays automatically in a loop when any image is touched.
+- **Auto Audio  Sound Player**: A sound plays automatically in a loop when any image is touched.
 
 ## Preview
 
